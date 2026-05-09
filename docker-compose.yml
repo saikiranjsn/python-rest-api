@@ -25,6 +25,16 @@ services:
     networks:
       - monitoring
 
+  # .NET Core API Application
+  dotnet-app:
+    build:
+      context: ./dotnet-api
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5000"
+    networks:
+      - monitoring
+
   # Prometheus - Metrics Collection
   prometheus:
     image: prom/prometheus:latest

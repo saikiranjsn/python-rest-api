@@ -60,6 +60,7 @@ A comprehensive Flask REST API project with Prometheus, Grafana, and Locust for 
 3. **Access the services:**
    - **Flask API**: http://localhost:5000
    - **Rust API**: http://localhost:5001
+   - **.NET API**: http://localhost:5002
    - **Grafana**: http://localhost:3000 (admin/admin)
    - **Prometheus**: http://localhost:9090
    - **Locust**: http://localhost:8089
@@ -69,6 +70,12 @@ A comprehensive Flask REST API project with Prometheus, Grafana, and Locust for 
 The Rust version exposes the same API contract as the Flask app on port `5001`.
 
 Use `http://rust-app:5000` as the host in the Locust UI when testing from the container network.
+
+## .NET API
+
+The .NET version exposes the same API contract as the Flask and Rust apps on port `5002`.
+
+Use `http://dotnet-app:5000` as the host in the Locust UI when testing from the container network.
 
 ## API Endpoints
 

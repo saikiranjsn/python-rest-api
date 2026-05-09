@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3hnn8TmC9jU=",
+  "success": true,
+  "projectFilePath": "/home/sai/Desktop/python-rest-api/dotnet-api/dotnet-api.csproj",
+  "expectedPackageFiles": [
+    "/home/sai/.nuget/packages/microsoft.aspnetcore.openapi/10.0.2/microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "/home/sai/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/sai/.nuget/packages/prometheus-net/8.2.1/prometheus-net.8.2.1.nupkg.sha512",
+    "/home/sai/.nuget/packages/prometheus-net.aspnetcore/8.2.1/prometheus-net.aspnetcore.8.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
